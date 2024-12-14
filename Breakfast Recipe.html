@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Breakfast Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: beige;
+            margin-top: 80px;
+        }
+
+        nav {
+            background-color: #343a40;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            background-color: white;
+        }
+
+        .navbar-title {
+            color: #ffffff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #343a40;
+        }
+
+        .recipe-container {
+            padding: 20px;
+            background-color: #f1e6d7;
+            border-radius: 10px;
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .recipe-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #343a40;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .ingredients,
+        .procedure {
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .ingredient-list {
+            list-style-type: none;
+        }
+
+        .ingredient-list li {
+            font-size: 1.2rem;
+        }
+
+        .view-recipe-btn {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .view-recipe-btn a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff5733;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://cdn.discordapp.com/attachments/1049482267933806604/1316212562442059896/H9VujFS7h81wAAAAABJRU5ErkJggg.png?ex=675a39f8&is=6758e878&hm=8f9f41f91df79f7380a7ab83aa23a98cac0762e0ccd4b83b4a4168c9ab8dbe3d&" alt="Logo" class="rounded-circle">
+                <div class="navbar-title">Apoy Recipes</div>
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Breakfast Recipe.html">BREAKFAST RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Lunch Recipe.html">LUNCH RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dinner Recipe.html">DINNER RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dessert Recipe.html">DESSERT RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggestions.html">SEND RECIPES HERE</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="Search...">
+                    <button class="btn btn-danger" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container recipe-container">
+        <h1 class="recipe-title">Breakfast Recipes</h1>
+
+        <div class="recipe-card">
+            <img src="https://thumbs.dreamstime.com/b/tortang-talong-giniling-eggplant-omelet-ground-pork-filipino-food-tortang-talong-giniling-eggplant-omelet-138061527.jpg" alt="Recipe Image" class="recipe-image">
+            <h3 class="section-title">Tortang Talong</h3>
+            <div class="ingredients">
+                <h4>Ingredients:</h4>
+                <ul class="ingredient-list">
+                    <li>4 pieces Chinese eggplant</li>
+                    <li>2 pieces raw eggs</li>
+                    <li>1 teaspoon salt</li>
+                    <li>6 tablespoons cooking oil</li>
+                </ul>
+            </div>
+            <div class="procedure">
+                <h4>Procedure:</h4>
+                <ol>
+                    <li>The eggplant should be grilled until the skin is nearly black.</li>
+                    <li>After allowing the eggplant to cool, remove the skin, put aside.</li>
+                    <li>Crack the eggs over a bowl with salt then beat.</li>
+                    <li>Using a fork, flatten the eggplant on a level surface.</li>
+                    <li>Pour the beaten egg mixture over the flattened eggplant.</li>
+                    <li>Pour cooking oil into the heated pan.</li>
+                    <li>After dipping the eggplant in the beaten mixture, fry it. Ensure that the food is cooked on both sides on medium heat, fry for approximately 3 to 4 minutes on each side.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="recipe-card mt-4">
+            <img src="https://thebakeologie.com/wp-content/uploads/2018/11/BeefTapa-1a.jpg" alt="Recipe Image" class="recipe-image">
+            <h3 class="section-title">Beef Tapa with Sinangag</h3>
+            <div class="ingredients">
+                <h4>Ingredients:</h4>
+                <ul class="ingredient-list">
+                    <li>1 lb. beef sirloin sliced thinly</li>
+                    <li>3 pieces eggs</li>
+                    <li>6 tablespoons cooking oil</li>
+                </ul>
+                <h5>Tapa Marinade:</h5>
+                <ul class="ingredient-list">
+                    <li>3 tablespoons Knorr Liquid Seasoning</li>
+                    <li>6 cloves crushed garlic</li>
+                    <li>¾ cups pineapple juice</li>
+                    <li>2 tablespoons brown sugar</li>
+                    <li>¼ teaspoon ground white pepper</li>
+                </ul>
+                <h5>Sinangag:</h5>
+                <ul class="ingredient-list">
+                    <li>5 cups leftover rice</li>
+                    <li>1 teaspoon salt</li>
+                    <li>5 cloves garlic crushed</li>
+                </ul>
+            </div>
+            <div class="procedure">
+                <h4>Procedure:</h4>
+                <ol>
+                    <li>In a bowl, combine the tapa marinade ingredients with the beef to marinate it. Refrigerate overnight with a lid on.</li>
+                    <li>Stir-fry the garlic in heated oil until it turns light brown, then cook the rice with garlic. Stir-fry for 5 to 8 minutes after adding the rice and seasoning with salt, put aside.</li>
+                    <li>In a pan, bring the marinated beef and water to a boil to prepare the tapa. Reduce the liquid, then add the oil and cook until it's medium brown, put aside.</li>
+                    <li>Sprinkle salt over the eggs and fry them until the yolks are cooked through.</li>
+                    <li>To make Tapsilog, plate the fried egg, garlic fried rice, and beef tapa. Serve with a dipping sauce of vinegar.</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

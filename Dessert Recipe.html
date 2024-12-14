@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: beige;
+            margin-top: 80px;
+        }
+
+        nav {
+            background-color: #343a40;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            background-color: white;
+        }
+
+        .navbar-title {
+            color: #ffffff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #343a40;
+        }
+
+        .recipe-container {
+            padding: 20px;
+            background-color: #f1e6d7;
+            border-radius: 10px;
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .recipe-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #343a40;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .ingredients, .procedure {
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .ingredient-list {
+            list-style-type: none;
+        }
+
+        .ingredient-list li {
+            font-size: 1.2rem;
+        }
+
+        .view-recipe-btn {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .view-recipe-btn a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff5733;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://cdn.discordapp.com/attachments/1049482267933806604/1316212562442059896/H9VujFS7h81wAAAAABJRU5ErkJggg.png?ex=675a39f8&is=6758e878&hm=8f9f41f91df79f7380a7ab83aa23a98cac0762e0ccd4b83b4a4168c9ab8dbe3d&" alt="Logo" class="rounded-circle">
+                <div class="navbar-title">Apoy Recipes</div>
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Breakfast Recipe.html">BREAKFAST RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Lunch Recipe.html">LUNCH RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dinner Recipe.html">DINNER RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dessert Recipe.html">DESSERT RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggestions.html">SEND RECIPES HERE</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="Search...">
+                    <button class="btn btn-danger" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container recipe-container">
+        <h1 class="recipe-title">Dessert Recipes</h1>
+
+        <div class="recipe-card mt-4">
+            <img src="https://hicaps.com.ph/wp-content/uploads/2021/08/sapin-sapin.jpg" alt="Sapin Sapin" class="recipe-image">
+            <h3 class="section-title">Sapin Sapin</h3>
+            <div class="ingredients">
+                <h4>Ingredients:</h4>
+                <ul class="ingredient-list">
+                    <li>2 cups glutinous rice flour</li>
+                    <li>4 cups coconut milk</li>
+                    <li>1 cup granulated white sugar</li>
+                    <li>7 oz. (1/2 can) condensed milk</li>
+                    <li>1/2 cup ripe jackfruit</li>
+                    <li>3/4 cup mashed purple yam</li>
+                    <li>1/2 teaspoon vanilla extract</li>
+                    <li>1/4 teaspoon ube extract</li>
+                    <li>1 tablespoon cooking oil or coconut oil</li>
+                    <li>Violet food coloring</li>
+                    <li>Yellow food coloring</li>
+                    <li>1/4 cup latik (coconut curds)</li>
+                </ul>
+            </div>
+            <div class="procedure">
+                <h4>Procedure:</h4>
+                <ol>
+                    <li>In a large mixing bowl, combine glutinous rice flour and sugar. Mix well.</li>
+                    <li>Pour-in the condensed milk, coconut milk, and vanilla extract. Mix until the texture becomes smooth.</li>
+                    <li>Divide the mixture into 3 parts.</li>
+                    <li>Add the mashed purple yam and ube extract on the first part along with the violet food coloring. Stir thoroughly and then set aside.</li>
+                    <li>Shred the jackfruit (without the seed) in a food processor. Add the processed jackfruit on the second part along with the yellow coloring and then mix well. Set aside. Note: leave the 3rd part as it is.</li>
+                    <li>Arrange the steamer on your stovetop and pour-in about 1 quart of water. Turn on the heat and let the water boil.</li>
+                    <li>Grease a round baking pan by brushing cooking oil or coconut oil.</li>
+                    <li>Pour-in the first part (colored violet) on the greased baking pan. Make sure that the mixture settles. Cover the baking pan with a cheesecloth and then steam for 12 to 16 minutes.</li>
+                    <li>Remove the baking pan and then pour-in the white mixture. Use a spatula to spread it on top of the violet mixture. Remove excess water from the cheesecloth by squeezing it. Put it back on the baking pan. Steam for another 12 to 16 minutes.</li>
+                    <li>Remove the baking pan from the steamer and then pour-in the yellow mixture. Spread the mixture over the succeeding one using a spatula. Try to remove the excess water again from the cloth and then put it back on the baking pan. Steam for 15 to 20 minutes.</li>
+                    <li>Arrange a clean banana leaf over a wide serving plate. Brush coconut or cooking oil on the leaf. Use a spatula (brushed with oil) and gently run on the side of the baking pan to prevent the mixture from sticking. Turn the baking pan over the banana leaf and let the cooked sapin-sapin fall.</li>
+                    <li>Brush oil on top of the sapin-sapin (the violet part should be on top). Sprinkle with latik. Serve and enjoy!</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="recipe-card mt-4">
+            <img src="https://getrecipe.org/wp-content/uploads/2019/10/Thumbnail-1-2.png">
+            <h3 class="section-title">Leche Flan</h3>
+            <div class="ingredients">
+                <h4>Ingredients:</h4>
+                <ul class="ingredient-list">
+                    <li>10 pieces eggs</li>
+                    <li>1 can condensed milk (14 oz)</li>
+                    <li>1 cup fresh milk or evaporated milk</li>
+                    <li>1 cup granulated sugar</li>
+                    <li>1 teaspoon vanilla extract</li>
+                </ul>
+            </div>
+            <div class="procedure">
+                <h4>Procedure:</h4>
+                <ol>
+                    <li>Separate the yolk from the egg whites. Place the yolks in a large bowl and beat them using a fork or an egg beater.</li>
+                    <li>Add the condensed milk and mix thoroughly. Pour in the fresh milk and vanilla extract. Mix well.</li>
+                    <li>Heat the mold (llanera) over low fire on the stove. Add granulated sugar and mix until it turns into caramel (light brown color).</li>
+                    <li>Spread the caramel evenly in the mold. Wait for 5 minutes before pouring the egg yolk mixture into the mold.</li>
+                    <li>Cover the mold with aluminum foil and steam for 30 to 35 minutes.</li>
+                    <li>Let the flan cool before refrigerating. Serve chilled. Enjoy!</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

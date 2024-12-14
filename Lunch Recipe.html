@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lunch Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: beige;
+            margin-top: 80px;
+        }
+
+        nav {
+            background-color: #343a40;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            background-color: white;
+        }
+
+        .navbar-title {
+            color: #ffffff;
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #343a40;
+        }
+
+        .recipe-container {
+            padding: 20px;
+            background-color: #f1e6d7;
+            border-radius: 10px;
+        }
+
+        .recipe-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .recipe-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #343a40;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .ingredients, .procedure {
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .ingredient-list {
+            list-style-type: none;
+        }
+
+        .ingredient-list li {
+            font-size: 1.2rem;
+        }
+
+        .view-recipe-btn {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .view-recipe-btn a {
+            text-decoration: none;
+            color: white;
+            background-color: #ff5733;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://cdn.discordapp.com/attachments/1049482267933806604/1316212562442059896/H9VujFS7h81wAAAAABJRU5ErkJggg.png?ex=675a39f8&is=6758e878&hm=8f9f41f91df79f7380a7ab83aa23a98cac0762e0ccd4b83b4a4168c9ab8dbe3d&" alt="Logo" class="rounded-circle">
+                <div class="navbar-title">Apoy Recipes</div>
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Breakfast Recipe.html">BREAKFAST RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Lunch Recipe.html">LUNCH RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dinner Recipe.html">DINNER RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Dessert Recipe.html">DESSERT RECIPES |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="suggestions.html">SEND RECIPES HERE</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="Search...">
+                    <button class="btn btn-danger" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container recipe-container">
+        <h1 class="recipe-title">Lunch Recipes</h1>
+
+        <div class="recipe-card">
+            <img src="https://www.maggi.ph/sites/default/files/styles/home_stage_944_531/public/srh_recipes/442ce059c4c490e1ab61cdaef9c98511.jpg?h=28121b77&itok=Wh9ptQR3" alt="Recipe Image" class="recipe-image">
+            <h3 class="section-title">Sinigang</h3>
+            <div class="ingredients">
+                <h4>Ingredients:</h4>
+                <ul class="ingredient-list">
+                    <li>2 lbs. beef short rib</li>
+                    <li>2 (25g) packs Knorr Sinigang na may Gabi Recipe Mix</li>
+                    <li>2 cups fresh watermelon, sliced and seeds removed</li>
+                    <li>1 bunch kangkong leaves, stalk cut into serving pieces</li>
+                    <li>12 to 15 pieces snake beans (sitaw), cut into 2-inch lengths</li>
+                    <li>1 medium tomato, wedged</li>
+                    <li>1 medium yellow onion, sliced</li>
+                    <li>8 cups water</li>
+                    <li>1/4 teaspoon ground black pepper</li>
+                    <li>4 tablespoons fish sauce</li>
+                </ul>
+            </div>
+            <div class="procedure">
+                <h4>Procedure:</h4>
+                <ol>
+                    <li>Fill a pressure cooker with water then bring to a boil.</li>
+                    <li>Add the onion and tomato. Boil for a further five minutes.</li>
+                    <li>In the pressure cooker, place the short rib of beef, cover it, then cook under pressure for half an hour.</li>
+                    <li>Take off the pressure cooker's lid. Watermelon should be added. Boil for another 10 to 12 minutes.</li>
+                    <li>Add the recipe mix for Knorr Sinigang na may Gabi. Stir. Cook for three minutes.</li>
+                    <li>Include the snake beans. Cook for five minutes.</li>
+                    <li>Add fish sauce and ground black pepper and stir.</li>
+                    <li>Place the stem and leaves of the kangkong in the pot. Cover. Give it five to eight minutes.</li>
+                    <li>Move to a bowl for serving and enjoy!</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="recipe-card mt-4">
+            <img src="https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/SEA/calcmenu/recipes/PH-recipes/red-meats-&-red-meat-dishes/kare-kare/kare-kare-main.jpg">
+            <h3 class="section-title">Kare-Kare</h3>
+            <div class="ingredients">
+                <h4>Ingredients:</h4>
+                <ul class="ingredient-list">
+                    <li>3 lbs oxtail, cut in 2-inch slices (you can also use tripe or beef slices)</li>
+                    <li>1 piece small banana flower bud, sliced</li>
+                    <li>1 bundle pechay or bok choy</li>
+                    <li>1 bundle string beans, cut into 2-inch slices</li>
+                    <li>4 pieces eggplants, sliced</li>
+                    <li>1 cup ground peanuts</li>
+                    <li>1/2 cup peanut butter</li>
+                    <li>1/2 cup shrimp paste</li>
+                    <li>34 ounces water (about 1 liter)</li>
+                    <li>1/2 cup annatto seeds, soaked in a cup of water</li>
+                    <li>1/2 cup toasted ground rice</li>
+                    <li>1 tbsp garlic, minced</li>
+                    <li>1 piece onion, chopped</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+            </div>
+            <div class="procedure">
+                <h4>Procedure:</h4>
+                <ol>
+                    <li>Bring the water to a boil in a big pot.</li>
+                    <li>Add the oxtail and onions, then simmer for two and a half to three hours, or until the oxtail is cooked (35 minutes if using a pressure cooker).</li>
+                    <li>After the meat is soft, simmer it for five to seven minutes with the addition of ground peanuts, peanut butter, and coloring (water from the annatto seed mixture).</li>
+                    <li>Sauté the garlic in a different skillet, then add the string beans, eggplant, and banana blossom. Cook for five minutes.</li>
+                    <li>Move the cooked veggies to the big pot with the other ingredients.</li>
+                    <li>To taste, add salt and pepper. Serve while still hot and have fun!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
